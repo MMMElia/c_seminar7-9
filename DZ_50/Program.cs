@@ -67,6 +67,7 @@ void otvet(int [,] array, int m1, int n1, int x1) // метод поиска ч�
             if (array[i,j]==x1) {
                                 Console.Write($"Число находится на пересечении {i+1} строки и {j+1} столбца");
                                 x=array[i,j];
+                                Console.WriteLine();
                                 }
 
         }
