@@ -16,7 +16,7 @@ int[,] arr=inputarray(m);
 print(arr);
 
 
-//  Функция заполнения массива по спирали начиная с 1
+//  заполнение массива по спирали начиная
 int[,] inputarray(int n)
 {
     int[,] array= new int[n,n];
@@ -36,7 +36,7 @@ int[,] inputarray(int n)
         return array;
 }
 
-//  Функция вывода двумерного массива в терминал
+//   вывод двумерного массива 
 void print(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
