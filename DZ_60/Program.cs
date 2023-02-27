@@ -5,7 +5,7 @@
 // 27(0,0,1) 90(0,1,1)
 // 26(1,0,1) 55(1,1,1)
 
-
+Console.Clear();
 int[,,] arr = new int[2, 2, 2];
 inpurarray(arr);
 Print(arr);
