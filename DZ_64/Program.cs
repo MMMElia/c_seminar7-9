@@ -20,6 +20,6 @@ void otvet(int n, int c)
     else
     {
         otvet(n, c + 1);
-        Console.Write(c + " ");
+        Console.Write($"{c} ");
     }
 }
